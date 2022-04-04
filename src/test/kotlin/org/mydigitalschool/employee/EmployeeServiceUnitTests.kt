@@ -1,5 +1,6 @@
 package org.mydigitalschool.employee
 
+import org.junit.jupiter.api.Test
 import org.mydigitalschool.employee.employee.Employee
 import org.mydigitalschool.employee.employee.EmployeeService
 
@@ -16,5 +17,10 @@ val employees = listOf(
 class EmployeeServiceUnitTests {
 
     val employeeService: EmployeeService = EmployeeService()
+
+}
+
+@Test
+ fun 'obtenir la liste des employés majeurs, afin de savoir qui sera disponible le dimanche' (){
 
 }

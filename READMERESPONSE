@@ -1,0 +1,46 @@
+Questions :
+
+1 - L'acronyme TDD correspond aux "Test Driven Developpement".
+
+2 - Ces tests consistent à développer son programme en avançant étape par étape.
+Ce qui permet de tout de suite corrigé des erreurs rencontrées dans le développement.
+
+3 - Les 5 types de test automatisés sont les suivants :
+-Tests unitaires.
+-Tests d'intégration.
+-Tests de robustesse.
+-Tests de performance.
+-Tests fonctionnels.
+
+4 - Les avantages d'utiliser des tests automatisés :
+- Ils permettent de penser à la plupart des conditions dans un code,
+ce qui évite de rencontrer des problèmes une fois le code terminé.
+- Ils permettent de gagner du temps dans le développement.
+- Lors d'un travail en équipe, il sera plus simple pour nos partenaires de savoir sur quel point nous avons travaillé.
+
+5 - Pour qu'un test automatisé soit de qualité :
+- Il faut qu'il soit performant, c'est à dire qu'il soit rapide à exécuter.
+- Qu'il soit simple, qu'il puisse être compris par les autres développeurs.
+- Qu'il soit fiable, qu'il puisse regrouper et prendre en compte un maximum de conditions.
+
+6 - L'intérêt du principe S.O.L.I.D est de proposer un code propre et oragnisé.
+Le S.O.L.I.D se compose de 5 parties :
+- Single Responsibility
+- Open/Closed
+- Liskov Substitution
+- Interface Segregation
+- Dependency Inversion
+
+7 - La Single Responsability est l'un des principes du S.O.L.I.D qui veut qu'une classe ne puisse faire qu'une seule et unique chose.
+Le but est de réduire au maximum les fonctionnalitées d'une classe pour qu'il n'en reste qu'une seule.
+
+8 - Il existe plusieurs types de tests définis dans la norme ISO 25010 :
+- Le test de performance, qui permet de tester le temps de réponse ou l'utilisation des ressources de notre machine.
+- Le test fonctionnel, qui permet de vérifier le bon fonctionnement de l'application ainsi que son aptitude à l'usage.
+- Le test de compatibilité
+- Le test de fiabilité
+- Le test de sécurité
+
+9 - Le polymorphisme permet d'utiliser une fonction du même nom plusieurs fois, mais avec des paramètres différents.
+Par exemple une fonction "crier" sera utilisée pour une classe "chien" et "chat" mais n'aura pas la même fonction.
+"Wouf" pour le chien et "Miaou" pour le chat.
